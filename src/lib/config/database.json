@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "root",
+    "password": "a@223203@",
+    "database": "Tagmastarna",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "a@223203@",
+    "database": "Tagmastarna",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "a@223203@",
+    "database": "Tagmastarna",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
