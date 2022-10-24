@@ -1,9 +1,11 @@
 # Tågmästarna
 ----------------------------------------------------
 ## Steps to run the project:
-+ Clone the repo 
-+ Add database configuration (username, password)
-+ Create database called "Tagmastarna"
++ Clone the repo. 
++ Add database configuration (username, password) in the file `src/lib/config/database.json`
++ Create database called "Tagmastarna".
+  + Run the following SQL query to create the database: 
+    + ` create database Tagmastarna;`
 + Open terminal and run the following commands:
     + `npm install`
     + `npx sequelize-cli db:migrate`
@@ -17,12 +19,5 @@
 + show databases; # show all database ;
 + use  Tagmastarna ; # select database  to run queries throw it
 ----------------------------------------------------
-### VSCode terminal:
-+  npm i
-+  npx sequelize-cli db:migrate # to migrate up models 
-+  npx sequelize-cli db:seed:all # to seed fake data in database 
-+  npm run dev  
-+  npm run build # to build application
-----------------------------------------------------
-
+ 
 ## By Hisham Ali 
